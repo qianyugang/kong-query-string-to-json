@@ -5,7 +5,6 @@
 - **名称**：query-string-to-json
 - **说明**：本插件主要作用是把url中的查询参数转换为特定参数的json字符串`params={}`并替换到原url中。
 - **例如**：原有url为
-
     ```
     http://service-host.com?minitest?appkey=xxx&size=10&qq=11&ww=22
     ```
@@ -30,4 +29,6 @@ curl -X POST http://192.168.1.5:8001/routes/1ed4443c-e677-4af4-b551-ad6fd99a55e1
 ```
 
 
+## 版本兼容
 
+kong >= 2.0.0
