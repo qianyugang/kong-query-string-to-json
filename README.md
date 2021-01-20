@@ -20,15 +20,17 @@
 
 ## 使用
 
-在配置完成 service 以及 route代理之后，可以添加本插件到需要的 service 或者 route上，例如：
+在配置完成 service 以及 route 代理之后，可以添加本插件到需要的 service 或者 route 上，例如：
 
 ```
 curl -X POST http://192.168.1.5:8001/routes/1ed4443c-e677-4af4-b551-ad6fd99a55e1/plugins\
-    --data "name=query-string-to-json"  \
+    --data "name=kong-query-string-to-json"  \
     --data "config.exclude_params_names[]=size&config.exclude_params_names[]=appkey"
 ```
 
 
 ## 版本兼容
 
+```
 kong >= 2.0.0
+```
