@@ -17,8 +17,8 @@
     
 - **参数**：
 
-- 配置参数中`exclude_params_names`为不需要转换为json的参数。例如上例中的`appkey`和`size`参数，就没有转换为json。
-- 配置参数中`params_name`为json之后的query参数key，默认为`params`。
+    - 配置参数中`exclude_params_names`为不需要转换为json的参数。例如上例中的`appkey`和`size`参数，就没有转换为json。
+    - 配置参数中`params_name`为json之后的query参数key，默认为`params`。
 
 
 ## 使用
