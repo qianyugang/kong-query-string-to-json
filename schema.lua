@@ -11,7 +11,12 @@ return {
             type = "record",
             fields = {
                 {
-                    exclude_params_names = strings_array
+                    exclude_params_names = strings_array,
+                    params_name = {
+                        type = "string",
+                        required = false,
+                        default = "params",
+                    },
                 }
             },
         },

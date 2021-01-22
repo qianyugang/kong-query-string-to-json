@@ -12,10 +12,13 @@
     经过kong代理，并使用本插件之后，请求会变为
     
     ```
-    http://kong.com:8000?appkey=xxx&size=10&params=%7B%22qq%22%3A%2211%22%2C%22ww%22%3A%2222%22%7D
+    http://kong.com:8000?appkey=xxx&size=10&params={"qq":"11","ww":"22"}
     ```
     
-- **参数**：配置参数中`exclude_params_names`为不需要转换为json的参数。例如上例中的`appkey`和`size`参数，就没有转换为json。
+- **参数**：
+
+- 配置参数中`exclude_params_names`为不需要转换为json的参数。例如上例中的`appkey`和`size`参数，就没有转换为json。
+- 配置参数中`params_name`为json之后的query参数key，默认为`params`。
 
 
 ## 使用

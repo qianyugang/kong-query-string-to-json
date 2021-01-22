@@ -31,7 +31,7 @@ function _M.execute(conf)
             end
         end
 
-        querystring['params'] = cjson.encode(json_table)
+        querystring[conf.params_name] = cjson.encode(json_table)
 
     end
 
