@@ -5,7 +5,7 @@ local strings_array = {
 }
 
 return {
-    name = "dd01-uri-to-json",
+    name = "kong-query-string-to-json",
     fields = {
         { config = {
             type = "record",

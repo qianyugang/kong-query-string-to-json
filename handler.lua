@@ -5,7 +5,7 @@ local access             = require "kong.plugins.query-string-to-json.access"
 QueryStringToJsonHandler.VERSION = "0.1.0"
 
 function QueryStringToJsonHandler:new()
-    QueryStringToJsonHandler.super.new(self, "query-string-to-json")
+    QueryStringToJsonHandler.super.new(self, "kong-query-string-to-json")
 end
 
 function QueryStringToJsonHandler:access(conf)

@@ -24,7 +24,7 @@
 
 ```
 curl -X POST http://192.168.1.5:8001/routes/1ed4443c-e677-4af4-b551-ad6fd99a55e1/plugins\
-    --data "name=query-string-to-json"  \
+    --data "name=kong-query-string-to-json"  \
     --data "config.exclude_params_names[]=size&config.exclude_params_names[]=appkey"
 ```
 
