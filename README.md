@@ -1,5 +1,7 @@
 # kong url参数转换为json插件
 
+[![](https://img.shields.io/badge/Kong-%3E%3D2.0.0-blue)](https://konghq.com/)
+
 ## 说明
 
 - **名称**：query-string-to-json
